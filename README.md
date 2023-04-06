@@ -11,8 +11,7 @@ ood_data = np.random.normal(0.4,0.1,500)
 # Compute OOD metrics and plot histogram + threshold curve for AUTC
 plot_ood_scores(id_data,ood_data)
 ```
-
-output:
+## output
 ![Normalized histogram of OOD scores (left), FNR / FPR vs. threshold curves (right)](example_plots.png)
 
 ```python
@@ -32,4 +31,4 @@ auFNR 0.6044, auFPR 0.1528
 
 ## Synthetic examples
 
-The [Jupyter notebook](./imaginary%20models.ipynb) contains the code for reproducing the visualizations and OOD performance of our imaginary models (Figs. 1, 3, 4, 6, 7).
+The [Jupyter notebook](./imaginary%20models.ipynb) contains the code for reproducing the visualizations and OOD performance of the imaginary models in the paper (Figs. 1, 3, 4, 6, 7).
