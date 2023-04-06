@@ -11,7 +11,7 @@ ood_data = np.random.normal(0.4,0.1,500)
 # Compute OOD metrics and plot histogram + threshold curve for AUTC
 plot_ood_scores(id_data,ood_data)
 ```
-## output
+### output
 ![Normalized histogram of OOD scores (left), FNR / FPR vs. threshold curves (right)](example_plots.png)
 
 ```python
